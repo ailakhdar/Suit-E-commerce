@@ -1,0 +1,30 @@
+<div class="container">
+
+    <div class="row px-lg-3 mt-2 mb-2 align-items-center sticky-top ">
+        <div class="col-sm-8"><a href="/dashboard" style="text-decoration: none; ">
+                <h1 style="color:white;">SU<span id="letter">I</span>TS</h1>
+            </a></div>
+
+
+        <div class="col-sm"><span class=" fa-stack has-badge" style="float: right; font-size: 20px;" id="cartCounter">
+                <i class="fa fa-circle fa-stack-2x "></i>
+                <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span></div>
+
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Welcome <%= user.name %>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                <a href="/" class="dropdown-item ">SHOPPING LIST</a>
+                <a href="/users/logout" class="dropdown-item  ">LOGOUT</a>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div><%- include('e-body'); -%></div>
+</div>

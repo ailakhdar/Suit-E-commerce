@@ -1,0 +1,39 @@
+.fa-stack[data-count]:after {
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	content: attr(data-count);
+	font-size: 40%;
+	padding: 0.6em;
+	border-radius: 999px;
+	line-height: 0.75em;
+	color: white;
+	color: red;
+	text-align: center;
+	min-width: 2em;
+	font-weight: bold;
+	background: white;
+	border-style: solid;
+}
+.fa-circle {
+	color: #df0000;
+}
+
+.red-cart {
+	color: #df0000;
+	background: white;
+}
+#letter {
+	color:red;
+}
+#ppd {
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	max-width: 1000px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#pd {
+	color: red;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
